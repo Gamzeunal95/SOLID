@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP.OrnekDuzenlenmis.Concreate
+namespace DIP.OrnekDuzenlenmis.Concrete
 {
-    public class YeniTavuk : IPisir
+    public class YeniKofte : IPisir
     {
         public void Pisir()
         {
-            Console.WriteLine("Tavuk Pisti");
+            Console.WriteLine("Kofte Pisti");
         }
     }
 }

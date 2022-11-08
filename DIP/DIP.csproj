@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Loglama\Concreate\" />
+    <Folder Include="Loglama\Concrete\" />
   </ItemGroup>
 
 </Project>

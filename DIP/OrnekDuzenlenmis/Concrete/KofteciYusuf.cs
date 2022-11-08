@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP.OrnekDuzenlenmis.Concreate
+namespace DIP.OrnekDuzenlenmis.Concrete
 {
     public class KofteciYusuf
     {

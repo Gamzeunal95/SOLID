@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OCP.DuzenlenmisUyunHali.Concreate
+namespace OCP.DuzenlenmisUyunHali.Concrete
 {
     public class Espresso :  CoffeeBase
     {

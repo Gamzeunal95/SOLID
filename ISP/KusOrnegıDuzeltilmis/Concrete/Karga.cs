@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP.KusOrnegıDuzeltilmis.Concreate
+namespace ISP.KusOrnegıDuzeltilmis.Concrete
 {
     public class Karga : IKosabilir, IYuruyebilir, IUcabilir
     {
