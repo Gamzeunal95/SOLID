@@ -1,4 +1,6 @@
-﻿using DIP.OrnekDuzenlenmis.Abstract;
+﻿using DIP.Loglama.Abstract;
+using DIP.Loglama.Concrete;
+using DIP.OrnekDuzenlenmis.Abstract;
 using DIP.OrnekDuzenlenmis.Concreate;
 using System.Net.NetworkInformation;
 
@@ -8,25 +10,36 @@ namespace DIP
     {
         static void Main(string[] args)
         {
-            #region Ornek Solıd prensibine uymayan
+            //KofteciRamiz ramiz = new KofteciRamiz();
+            //ramiz.Pisir();
 
+            #region Ornek 1 
 
+            //IPisir Kofte = new YeniKofte();
+            //IPisir tavuk = new YeniTavuk();
+            //IPisir patates = new Patates();
+
+            //List<IPisir> urunlerim = new List<IPisir>();
+            //urunlerim.Add(patates);
+            //urunlerim.Add(tavuk);
+            //urunlerim.Add(Kofte);
+
+            //KofteciYusuf kofteciYusuf = new KofteciYusuf(urunlerim);
+
+            //kofteciYusuf.Pisir(); 
 
             #endregion
 
 
-            #region OrnekDuzeltilmis SOLID prensibine uygun
+            #region Ornek2 Loglama
 
-            IPisir Kofte = new YeniKofte();
-            IPisir Tavuk = new YeniTavuk();
-            IPisir patates = new Patates();
+            ILogger filelogger = new FileLogger();
 
-            List<IPisir> urunlerim = new List<IPisir>();
-            urunlerim.Add(Patates);
-            urunlerim.Add(Tavuk);
-            urunlerim.Add(Kofte);
 
-            KofteciYusuf 
+            ILogger DbLogger = new DbLogger();
+            Loglayici loglayici = new Loglayici();
+
+            loglayici.Logla(filelogger, "Deneme");
 
 
             #endregion

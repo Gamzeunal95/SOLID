@@ -32,13 +32,13 @@ namespace LSP
 
             #region OrnekBadDüzeltilmiş
 
-            Sekil dikdortgen1 = new YeniDikdortgen() { KisaKenar = 3, UzunKenar = 5 };
+            Sekil dikdortgen = new YeniDikdortgen() { KisaKenar = 3, UzunKenar = 5 };
             Sekil kare = new Kare() {Kenar = 5 };
             if (kare.AlanHesapla() != 25)
             {
                 Console.WriteLine("Yanlış Hesap");
             }
-            if (dikdortgen1.AlanHesapla() != 15)
+            if (dikdortgen.AlanHesapla() != 15)
             {
                 Console.WriteLine("Dikdortgen hesabı yanlıs.");
             }
