@@ -27,4 +27,6 @@ DIP -> Dependency Inversion Principle (Dependeny = Bağlılık)
 (Kus türleri ile alakalı Interface Segregation prensibine uyan ve uymayan şekilde örneklendi.)
 
 ## Project 5 - DIP (Dependency Inversion Principle)
-- 
+- Ornek (Köfte-Tavuk konusu)
+- OrnekDuzenlenmis (Dependency Inversion prensibine göre)
+- Loglama -> Dependency Inversion prensibine uygun şekilde tek ornek yapıldı.
