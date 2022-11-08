@@ -5,6 +5,8 @@ OCP -> Open Close Principle = Sınıflar gelişmeye açık lakin değişmeye kap
 LSP -> Liskov Substitution Principle
 ISP -> Interface Segregation Principle
 DIP -> Dependency Inversion Principle (Dependeny = Bağlılık)
+### NOT
+Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları abstract clasaa eklemek diğer classları Concrete folderıne aklemek daha düzenli olacaktır.
 
 ## Project 1 - SRP  (Single Responsibilty Principle)
 - Ornek - > PersonelOlusturucu adında bir class açtık ancak bu SRP'ye uygun bir şekilde olmadı
