@@ -35,7 +35,7 @@ Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları
 
 ## Project 6 - IOC_Sample (Inversion of control)
 - **NOT:** Dependency Inversion'un dersi bağımlılıkları tersine çeviriyor. (Dependences injection yapmış oluyor.????)
-- Yapılan konuya/örneğe bu (linkten)[https://www.tutorialsteacher.com/ioc] bakabilirsiniz.
+- Yapılan konuya/örneğe bu [linkten](https://www.tutorialsteacher.com/ioc) bakabilirsiniz.
 - unity paketini kurduk
 - Constructor bazlı injection
 
