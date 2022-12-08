@@ -32,3 +32,14 @@ Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları
 - Ornek (Köfte-Tavuk konusu)
 - OrnekDuzenlenmis (Dependency Inversion prensibine göre)
 - Loglama -> Dependency Inversion prensibine uygun şekilde tek ornek yapıldı.
+
+## Project 6 - IOC_Sample (Inversion of control)
+- **NOT:** Dependency Inversion'un dersi bağımlılıkları tersine çeviriyor. (Dependences injection yapmış oluyor.????)
+- Yapılan konuya/örneğe bu (linkten)[https://www.tutorialsteacher.com/ioc] bakabilirsiniz.
+- unity paketini kurduk
+- Constructor bazlı injection
+
+## Project 7 - IOC_SampleNETCore
+- Console Application açıldı.
+- Microsoft.Extensions.DependencyInjection paketini indirdik.NugGet'lardan 
+- Bir önrek yapıldı.
