@@ -1,12 +1,12 @@
 # SOLID
 
-SRP -> Single Responsibilty Principle
-OCP -> Open Close Principle = Sınıflar gelişmeye açık lakin değişmeye kapalı olmalıdır.
-LSP -> Liskov Substitution Principle
-ISP -> Interface Segregation Principle
-DIP -> Dependency Inversion Principle (Dependeny = Bağlılık)
+- SRP -> Single Responsibilty Principle
+- OCP -> Open Close Principle = Sınıflar gelişmeye açık lakin değişmeye kapalı olmalıdır.
+- LSP -> Liskov Substitution Principle
+- ISP -> Interface Segregation Principle
+- DIP -> Dependency Inversion Principle (Dependeny = Bağlılık)
 ### NOT
-Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları abstract clasaa eklemek diğer classları Concrete folderıne aklemek daha düzenli olacaktır.
+Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları abstract clasa eklemek diğer classları Concrete folderıne eklemek daha düzenli olacaktır.
 
 ## Project 1 - SRP  (Single Responsibilty Principle)
 - Ornek - > PersonelOlusturucu adında bir class açtık ancak bu SRP'ye uygun bir şekilde olmadı
@@ -42,4 +42,4 @@ Concrete ve abstract diye iki folder olusturup ınterface ve abstract classları
 ## Project 7 - IOC_SampleNETCore
 - Console Application açıldı.
 - Microsoft.Extensions.DependencyInjection paketini indirdik.NugGet'lardan 
-- Bir önrek yapıldı.
+- Bir örnek yapıldı.
